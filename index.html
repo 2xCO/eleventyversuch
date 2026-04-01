@@ -1,0 +1,20 @@
+---
+layout: layout.html 
+---
+
+
+    <ul>
+         <!-- <div class="strich"><hr></div> -->
+    {% for post in collections.post %}
+        <li class="unsichtbar alle"
+                style=" list-style-type: none;"> 
+
+            {{ post.data.dassagichdir }} 
+            </li>
+        
+    {% endfor %}
+    </ul>
+    <button id="randomBtn" class="alle button"> > </button>
+
+
+
